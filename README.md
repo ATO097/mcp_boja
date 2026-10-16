@@ -33,8 +33,9 @@ tener Python instalado.
 
 ### Windows (desde el ZIP)
 
-1. Descarga `MCP-BOJA.zip` desde [Releases](https://github.com/ATO097/mcp_boja/releases)
-   (o usa **Code → Download ZIP** en GitHub) y descomprímelo en cualquier carpeta.
+1. Entra en la [última versión](https://github.com/ATO097/mcp_boja/releases/latest),
+   descarga **Source code (zip)** (en el apartado *Assets*) y descomprímelo en cualquier
+   carpeta. Se crea una carpeta `mcp_boja-<versión>`.
 2. Haz doble clic en **`instalar.bat`**.
 3. Reinicia Claude Desktop (ciérralo también desde el icono de la bandeja del sistema).
 
