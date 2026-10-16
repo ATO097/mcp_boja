@@ -1,0 +1,26 @@
+[project]
+name = "mcp-boja"
+version = "0.1.0"
+description = "Servidor MCP para consultar la normativa de la Junta de Andalucía publicada en el BOJA"
+readme = "README.md"
+license = "MIT"
+license-files = ["LICENSE"]
+authors = [
+    { name = "ATO097", email = "antonio.roman.jimenez97@gmail.com" }
+]
+keywords = ["mcp", "boja", "junta de andalucia", "normativa", "legislacion"]
+requires-python = ">=3.10"
+dependencies = [
+    "beautifulsoup4>=4.14",
+    "httpx>=0.28.1",
+    "mcp[cli]>=2.3.0,<3",
+    "pypdf>=6.0",
+]
+
+[project.scripts]
+mcp-boja = "mcp_boja:main"
+mcp-boja-configurar = "mcp_boja.configurar:main"
+
+[build-system]
+requires = ["uv_build>=0.13.0,<0.14.0"]
+build-backend = "uv_build"
