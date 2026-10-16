@@ -33,7 +33,8 @@ tener Python instalado.
 
 ### Windows (desde el ZIP)
 
-1. Descomprime `MCP-BOJA.zip` en cualquier carpeta.
+1. Descarga `MCP-BOJA.zip` desde [Releases](https://github.com/ATO097/mcp_boja/releases)
+   (o usa **Code → Download ZIP** en GitHub) y descomprímelo en cualquier carpeta.
 2. Haz doble clic en **`instalar.bat`**.
 3. Reinicia Claude Desktop (ciérralo también desde el icono de la bandeja del sistema).
 
@@ -54,7 +55,7 @@ sh instalar.sh
 ### Directamente desde GitHub (sin ZIP)
 
 ```bash
-uv tool install git+https://github.com/ATO097/MCP-BOJA
+uv tool install git+https://github.com/ATO097/mcp_boja
 mcp-boja-configurar
 ```
 
@@ -84,7 +85,7 @@ Sin instalar nada de forma permanente (útil para probar):
 ```json
 "normativa-andalucia": {
   "command": "uvx",
-  "args": ["--from", "git+https://github.com/ATO097/MCP-BOJA", "mcp-boja"]
+  "args": ["--from", "git+https://github.com/ATO097/mcp_boja", "mcp-boja"]
 }
 ```
 
